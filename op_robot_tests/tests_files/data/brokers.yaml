@@ -290,3 +290,15 @@ etrade:
        provider:       etrade_Provider1
        provider1:      etrade_Provider2
    timeout_on_wait: 120
+kapitalist:
+   intervals:
+       default:
+           enquiry: [0, 8]
+           tender:  [0,  18]
+   keywords_file: kapitalist
+   roles:
+       tender_owner:   kapitalist_Owner
+       viewer:         kapitalist_Viewer
+       provider:       kapitalist_Provider1
+       provider1:      kapitalist_Provider2
+   timeout_on_wait: 120

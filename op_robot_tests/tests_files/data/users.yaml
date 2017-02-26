@@ -522,3 +522,27 @@ users:
         browser:  firefox
         position: [640, 0]
         size:     [1280, 1024]
+    kapitalist_Viewer:
+        broker:   kapitalist
+        homepage: "http://185.9.41.105/Kapital-Ist"
+        login:    qa_test@binka.me
+        password: Password1-
+        browser:  chrome
+        position: [640, 0]
+        size:     [1280, 1024]
+    kapitalist_Provider1:
+        broker:   kapitalist
+        homepage: "http://185.9.41.105/Kapital-Ist"
+        login:    qa_test@binka.me
+        password: Password1-
+        browser:  chrome
+        position: [640, 0]
+        size:     [1280, 1024]
+    kapitalist_Provider2:
+        broker:   kapitalist
+      homepage: "http://185.9.41.105/Kapital-Ist"
+        login:    qa_test@binka.me
+        password: Password1-
+        browser:  firefox
+        position: [640, 0]
+        size:     [1280, 1024]
